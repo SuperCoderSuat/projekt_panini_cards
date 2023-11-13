@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+html body .card_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: center;
+  padding: 20px;
+}
+html body .card {
+  display: grid;
+  grid-template-rows: auto;
+  gap: 10px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  max-width: 400px;
+}
+html body article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+html body article form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+html body article form h1 {
+  text-align: center;
+}
+html body article form div:nth-of-type(1) input, html body article form div:nth-of-type(2) input, html body article form div:nth-of-type(3) input {
+  width: 49.5%;
+}
+
+/*# sourceMappingURL=style.css.map */
